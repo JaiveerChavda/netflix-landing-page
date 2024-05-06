@@ -4,9 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Netflix - Watch Tv Shows Online, Watch Movies Online</title>
+    <link
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
+
   <body>
-    <header>
+    <header class="showcase">
       <div class="showcase-top">
         <img src="/images/netflix_logo.png" alt="Netflix logo" />
         <select name="lang" id="lang">
@@ -14,7 +20,7 @@
           <option value="hi">Hindi</option>
         </select>
 
-        <a href="#">Sign In</a>
+        <a href="#" class="btn btn-rounded">Sign In</a>
       </div>
       <div class="showcase-content">
         <h1>Unlimited Movies, Tv Shows and more</h1>
@@ -30,7 +36,9 @@
               name="email"
               placeholder="Email or mobile number"
             />
-            <button type="submit">Get Started</button>
+            <button type="submit" class="btn btn-lg">
+              Get Started <i class="fas fa-chevron-right btn-icon"></i>
+            </button>
           </form>
         </div>
       </div>
